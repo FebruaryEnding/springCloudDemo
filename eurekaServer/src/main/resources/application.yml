@@ -1,0 +1,21 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: eurekaServer
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/test?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+#    username: root
+#    password: 123456
+#  jpa:
+#    properties:
+#      format_sql: true
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    database: mysql
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8081/eureka
+
