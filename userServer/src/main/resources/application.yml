@@ -1,7 +1,5 @@
 server:
   port: 8082
-  servlet:
-    context-path: /user
 spring:
   application:
     name: userServer
@@ -16,7 +14,11 @@ spring:
       ddl-auto: update
     show-sql: true
     database: mysql
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:8081/eureka
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:8081/eureka
