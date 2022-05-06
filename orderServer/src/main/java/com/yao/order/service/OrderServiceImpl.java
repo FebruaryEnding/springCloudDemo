@@ -1,5 +1,6 @@
 package com.yao.order.service;
 
+import com.yao.order.client.UserService;
 import com.yao.order.dto.OrderResponseDTO;
 import com.yao.order.dto.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;

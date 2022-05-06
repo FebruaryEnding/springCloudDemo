@@ -1,4 +1,4 @@
-package com.yao.order.service;
+package com.yao.order.client;
 
 import com.yao.order.dto.UserDTO;
 import org.springframework.cloud.openfeign.FeignClient;
