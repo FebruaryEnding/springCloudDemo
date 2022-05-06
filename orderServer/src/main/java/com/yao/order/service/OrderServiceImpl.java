@@ -1,8 +1,9 @@
 package com.yao.order.service;
 
-import com.yao.order.client.UserService;
+
+import com.yao.fegin.client.UserClient;
+import com.yao.fegin.dto.UserDTO;
 import com.yao.order.dto.OrderResponseDTO;
-import com.yao.order.dto.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +14,7 @@ public class OrderServiceImpl implements IOrderService {
 //    private RestTemplate restTemplate;
 
     @Autowired
-    private UserService userService;
+    private UserClient userService;
 
 
     @Override

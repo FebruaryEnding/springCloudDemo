@@ -6,6 +6,8 @@
         <module>eurekaServer</module>
         <module>userServer</module>
         <module>orderServer</module>
+        <module>fegin-api</module>
+        <module>gateway</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

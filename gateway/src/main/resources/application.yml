@@ -1,0 +1,22 @@
+server:
+  port: 10100
+spring:
+  application:
+    name: gateWay
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://127.0.0.1:8848
+    gateway:
+      routes:
+        - id: user-server
+          uri: lb://userServer
+          predicates:
+            - Path=/user/**
+        - id: order-server
+          uri: lb://orderServer
+          predicates:
+            - Path=/order/**
+
+
+

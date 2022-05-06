@@ -42,6 +42,11 @@
             </exclusions>
         </dependency>
         <dependency>
+            <groupId>com.yao</groupId>
+            <artifactId>fegin-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-httpclient</artifactId>
         </dependency>

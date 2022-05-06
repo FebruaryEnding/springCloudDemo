@@ -1,5 +1,7 @@
 package com.yao.order.dto;
 
+import com.yao.fegin.dto.UserDTO;
+
 public class OrderResponseDTO {
 
     private String id;

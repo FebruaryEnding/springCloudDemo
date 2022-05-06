@@ -1,4 +1,4 @@
-package com.yao.order.dto;
+package com.yao.fegin.dto;
 
 public class UserDTO {
 
